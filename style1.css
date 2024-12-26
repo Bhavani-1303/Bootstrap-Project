@@ -1,0 +1,69 @@
+.im1{
+    height: 90px;
+    width: 100px;
+    border-radius: 5px;
+}
+.im2{
+    height: 650px;
+}
+.im3{
+    height: 280px;
+    width: 400px;
+}
+.im4{
+    height: 300px;
+    width: 500px;
+}
+.fa-facebook{
+    position:relative;
+    left:40px;
+    font-size: 20px;
+    color:black;
+}
+.fa-linkedin{
+    position:relative;
+    left:40px;
+    font-size: 20px;
+    color:black;
+}
+.fa-envelope{
+    position:relative;
+    left:40px;
+    font-size: 20px;
+    color:black;
+}
+body{
+    overflow-x: hidden;
+}
+.img1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img2:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img3:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img4:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img5:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img6:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img7:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.img8:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}

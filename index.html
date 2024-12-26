@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <link href="style1.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-black bg-white">
+        <a href=""  class="navbar-brand"><img src="C:\Users\91994\Desktop\MEAN\images\brn.png" class="im1 img-fluid ms-3"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="mynav">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home<i class="fa-solid fa-house p-2"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About<i class="fa-solid fa-address-card p-2"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses<i class="fa-solid fa-book p-2"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#partners">Success Stories<i class="fa-solid fa-person p-2"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact us<i class="fa-solid fa-phone p-2"></i></a></li>
+                    <li class="nav-item"><a class="btn btn-warning mt-2 ms-3" data-bs-toggle="modal" data-bs-target="#myid" href="">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="myid">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Username</label>
+                            <input class="form-control" type="text" placeholder="Enter Username">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <input class="form-control" type="password" placeholder="Enter Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Login</button>
+                    <button class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="home">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" id="my">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="resize.jpg" alt="imagee" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resize2.jpg" alt="imagee" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resize1.jpg" alt="imagee" class="img-fluid">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#my" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#my" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <h1 class="text-center text-white p-4 text-decoration-underline text-secondary bg-secondary p-3 mt-3">About BRN Infotech</h1>
+        <div class="container">
+        <div class="row">
+        <div class="col-12 col-md-8">
+            <h3 class="fst-italic">Founder</h3>
+            <p align="justify">BRN Infotech, established in 2011, is led by directors Manjunadh Bommisetty and Gopinath Bommisetty Ramakrishna.The company specializes in software publishing, consultancy, and supply, focusing on custom software solutions tailored to user needs. Under their leadership, BRN Infotech has become a prominent training institute in Hyderabad, India, offering practical training in web and mobile application development, including technologies like MERN Full Stack and React Native. Their programs are designed for job seekers, corporations, and working professionals, emphasizing interactive, full-time courses that span several months with extensive training hours. This approach has resulted in a high success rate, with thousands of individuals securing employment through their programs.
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="C:\Users\91994\Desktop\MEAN\images\brn2.jpg" class="img-fluid im3 rounded">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <img src="C:\Users\91994\Desktop\MEAN\images\brn3.jpg" class="img-fluid im4 rounded-circle p-2">
+        </div>
+        <div class="col-12 col-md-8">
+            <h3 class="fst-italic p-2">History</h3>
+            <p align="justify">BRN Infotech is a prominent training institute based in Hyderabad, India, specializing in web and mobile application development. They offer practical training in technologies such as MERN Full Stack (React JS, Node JS) and React Native for iOS and Android platforms.Over the past decade, BRN Infotech has trained hundreds of students and conducted numerous corporate training sessions for leading IT companies. Their programs are tailored for job seekers, corporations, and working professionals, emphasizing interactive, full-time courses that span 4-5 months with over 800 hours of training. This approach has resulted in a 98% success rate, with 5,443 individuals securing employment through their programs.
+                The institute is located at 3rd Floor, Amma Nilayam, Jai Hind Enclave, Beside Axis Bank & Bloom Hitech, Ayappa Society, Madhapur, Hyderabad, Telangana 500081. They offer both offline classroom and online practical training sessions, with new batches commencing regularly. 
+                BRN INFOTECH.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <h3 class="fst-italic p-2">Highlights</h3>
+            <p align="justify">BRN Infotech is expert in providing Full Stack Web & Mobile Apps Training specially developed for job seekers to give you an in depth, hands-on training for Full Stack Web & Mobile Apps Programming.</p>
+            <h5>What you'll learn</h5>
+            <p align="justify">With this course you will become master in Full Stack Web & Mobile Apps Development.Get hands-on knowledge with the HTML , CSS , JavaScript , Node JS , Mongo DB , Express JS , React JS ,Redux , BootStrap , Visual Studio Code , GitHub,Start writing your own Web & Mobile Apps to become Software Engineer.</p>
+            <h4>Course Features</h4>
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th>Particulars</th>
+                    <th>MEAN Stack</th>
+                </tr>
+                <tr>
+                    <td>Skill Requires</td>
+                    <td>Basic Knowledge</td>
+                </tr>
+                <tr>
+                    <td>Course duration</td>
+                    <td>4 months</td>
+                </tr>
+                <tr>
+                    <td>Group discussion</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Resume and Interview Preparation</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Declared System Full Day</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Strong Placement</td>
+                    <td>Yes</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img1.jpeg" alt="text" class="img-fluid rounded p-3 mt-5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img2.jpeg" alt="text" class="img-fluid rounded p-3 mt-5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img3.jpeg" alt="text" class="img-fluid rounded p-3 mt-5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img4.jpeg" alt="text" class="img-fluid rounded p-3 mt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section id="courses">
+    <h1 class="text-center text-white text-decoration-underline text-secondary p-3 bg-secondary">Courses</h1>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img1">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image1.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Web Designing</h4>
+                        <p>Web designing involves creating the visual aesthetics, layout, and usability of a website.</p>
+                        <h5>Technologies include:</h5>
+                        <p>HTML,CSS,JavaScript</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone1">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone1" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone2">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone2" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <a class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal" herf="">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img2">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image2.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>MERN Stack</h4>
+                        <p>Framework for building robust,scalable, and full-stack web applications.</p>
+                        <h5>Technlogies include:</h5>
+                        <p>MongoDB,Express js,React js,Node js</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone3">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone3" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone4">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone4" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal1">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img3">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image3.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Digital Marketing</h4>
+                        <p>Digital marketing is the practice of promoting products, services,social media, email, and websites.</p>
+                        <h5>Technologies include:</h5>
+                        <p>Google Analytics,Artificial intelligence</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone5">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone5" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone6">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone6" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal2">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img4">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image4.webp" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">React Js</h4>
+                        <p>React.js is a popular JavaScript library for building user interfaces, particularly single-page applications.</p>
+                        <h5>Technologies include:</h5>
+                        <p>TypeScript,JavaScript,Nodejs</p>
+                    </div>
+                    <div class="card-footer">       
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone7">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone7" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#clone8">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="clone8" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal3">View More</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img5">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image5.webp" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Node js</h4>
+                        <p>Node.js is a popular open-source, cross-platform runtime to execute JavaScript code on the server side.</p>
+                        <h5>Technologies include:</h5>
+                        <p>npm,Express js</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem1">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem1" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem2">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem2" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal4" herf="">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img6">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image6.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Python Full Stack</h4>
+                        <p>Python full-stack development involves creating both the front-end and back-end.</p>
+                        <h5>Technologies include:</h5>
+                        <p>Flask and Django</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem3">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem3" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem4">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem4" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal5">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img7">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image7.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Java Full Stack</h5>
+                        <p>Java Full Stack development involves building complete web applications, from the back-end to the front-end.</p>
+                        <h5>Technologies include:</h5>
+                        <p>Core Java,Springboot</p>
+    
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem5">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem5" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem6">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem6" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal6">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="img8">
+                            <img src="C:\Users\91994\Desktop\MEAN\images\image8.webp" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">UI/UX development</h4>
+                        <p>UI (User Interface) and UX (User Experience) design are at the core of creating digital products functional.</p>
+                        <h5>Technologies include:</h5>
+                        <p>Figma, Adobe XD,Sketch</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="accordion" id="ouracc">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem7">Duration</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem7" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Course Duration:4 Months</li>
+                                            <li>Course Timings: 9 AM to 5 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cloneitem8">Facilities</button>
+                                </h4>
+                                <div class="accordion-collapse collapse" id="cloneitem8" data-bs-parent="#ouracc">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Placement Opportunities</li>
+                                            <li>Hands on Experience</li>
+                                            <li>Real Time Projects development</li>
+                                            <li>Softskills Training</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mymodal7">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="modal fade" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">Web Designing</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>Web designing is the process of creating visually appealing, user-friendly, and functional websites that provide an engaging online experience. It involves a combination of creative design, layout structuring, and technical aspects to ensure seamless functionality. Web designing encompasses various elements such as color schemes, typography, imagery, and navigation, tailored to meet the needs of the target audience and business objectives.</p>
+                    <h3 class="fst-italic">Importance</h1>
+                    <p>A well-designed website is essential for businesses, organizations, and individuals to establish credibility and build trust with their audience. It serves as the digital face of a brand, reflecting its identity and values. Good web design enhances user engagement by providing an intuitive and aesthetically pleasing experience, encouraging visitors to explore the site further. Moreover, it impacts search engine optimization (SEO), influencing a site's visibility in search results.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning"data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">MERN Stack</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>The MERN stack is a powerful combination of four technologies: MongoDB, Express.js, React.js, and Node.js. Together, they provide an efficient framework for building robust, scalable, and full-stack web applications. Each component in the MERN stack plays a distinct role, from managing databases to handling server-side logic and delivering responsive user interfaces.</p>
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>The stack is highly popular for creating dynamic and interactive web applications due to its flexibility, performance, and ease of integration. MongoDB’s schema-less structure makes it ideal for handling large datasets, while React.js ensures a rich user experience. Express.js and Node.js contribute to building fast, secure, and scalable backends.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">Digital Marketing</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>Digital marketing refers to the promotion of products or services through online channels such as websites, social media, email, search engines, and mobile apps. It combines creative strategies with advanced technologies to reach and engage target audiences more effectively. By leveraging data-driven insights, businesses can tailor their marketing efforts to drive conversions and foster brand loyalty.</p>         
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>In the modern era, digital marketing has become essential for businesses of all sizes. It allows companies to connect with a global audience, track campaign performance in real time, and optimize strategies for better results. Unlike traditional marketing, digital marketing offers cost-effective solutions with measurable outcomes, ensuring higher return on investment (ROI).</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">React Js</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>React.js is a popular JavaScript library for building user interfaces, particularly single-page applications where responsiveness and dynamic content are key. Created by Facebook, it allows developers to build reusable components that manage their state efficiently, making complex user interfaces easier to develop and maintain. Its virtual DOM ensures faster rendering, improving the user experience significantly.</p>       
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>React.js has revolutionized front-end development by offering simplicity, scalability, and speed. Its component-based architecture encourages modular design, enhancing code readability and reusability. With a strong ecosystem, including tools like Redux for state management and Next.js for server-side rendering, React.js supports diverse use cases from small projects to large-scale applications.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">Node Js</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>Built on Chrome's V8 JavaScript engine, Node.js is renowned for its speed and efficiency in handling asynchronous operations, making it an excellent choice for building scalable and real-time applications. Its non-blocking, event-driven architecture is particularly suited for data-intensive tasks and applications requiring high throughput.</p>       
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>Node.js has revolutionized backend development by enabling full-stack JavaScript development, where both client and server-side code can be written in the same language. This eliminates the need for context switching between programming languages, improving developer productivity. It is widely used in modern web development due to its ability to handle thousands of concurrent connections with minimal overhead, making it ideal for real-time applications like chat apps, IoT solutions, and streaming services.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">Python Full Stack</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>Python full-stack development involves creating both the front-end (user interface) and back-end (server and database) components of a web application using Python and its ecosystem. It is a versatile and efficient approach to web development, enabling developers to handle everything from user interactions to database management seamlessly. Python's simplicity and readability make it an excellent choice for full-stack development, especially for beginners and professionals alike.</p>       
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>Python full-stack development is highly valued for its efficiency, scalability, and ease of learning. It simplifies the development process by offering a unified language for both the front-end and back-end, reducing the complexity of managing diverse tech stacks. With powerful frameworks like Flask and Django, developers can rapidly build secure, robust, and feature-rich applications. Furthermore, Python's extensive libraries and community support enhance productivity and innovation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">Java Full Stack</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>A Java Full Stack Developer is proficient in Java technologies, frameworks, and associated tools to design, develop, and deploy scalable, secure, and efficient applications. With Java being a platform-independent, robust, and widely-used programming language, its versatility makes it ideal for full-stack development.</p>       
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>Java Full Stack development is highly sought after due to its ability to streamline the development process and ensure seamless integration between front-end and back-end components. It empowers developers to manage the entire project lifecycle, enhancing productivity and reducing dependency on multiple specialists. This comprehensive skill set is especially valued in organizations aiming for efficient workflows, consistent application performance, and a faster time-to-market.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mymodal7">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center fst-italic">UI/UX development</h2>
+                </div>
+                <div class="modal-body">
+                    <h4>Introduction</h4>
+                    <p>UI focuses on the design elements users interact with, such as buttons, menus, and layout, while UX emphasizes the overall user journey, ensuring it is intuitive and engaging. Together, they shape how users perceive and interact with applications, making them indispensable for building user-centric products.</p>       
+                    <h3 class="fst-italic">Importance</h3>
+                    <p>Effective UI/UX design improves user satisfaction by making applications easy to use and efficient in achieving their intended purpose. A well-crafted interface reduces friction, enabling users to complete tasks effortlessly, while good UX ensures they enjoy the experience, fostering loyalty and repeat engagement. These factors are especially critical in today's competitive digital landscape, where users demand seamless, attractive, and accessible solutions.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section id="partners">
+        <h1 class="text-center text-white text-decoration-underline text-secondary p-3 bg-secondary mt-3">Success Stories</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i8.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Dharani Kumar Reddy</h4>
+                        <p>College name: Annamacharya Institute of Technology,Tirupati</p>
+                        <p>Year of passout:ECE-2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i2.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Aravind A</h4>
+                        <p>College name: KITS College,<br> Warangal</p>
+                        <p>Year of passout:CIVIL-2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i3.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Varun Tej M</h4>
+                        <p>College name: QIS College of Engineering & Technology, Ongole</p>
+                        <p>Year of passout: CSE-2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i5.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Siva Sai Rakesh G</h4>
+                        <p>College name: Kakinada Institute of Technology, Kakinada</p>
+                        <p>Year of passout:ECE-2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i6.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Prem Kumar S</h4>
+                        <p>College name: St.Peters Engineering College, Hyderabad</p>
+                        <p>Year of passout:CSE-2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="C:\Users\91994\Desktop\MEAN\images\i7.png" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h4>Sydulu T</h4>
+                        <p>College name: JBIT Engineering College<br>Hyderabad</p>
+                        <p>Year of passout:ECE-2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="text-center text-white text-decoration-underline text-secondary p-3 bg-secondary mt-3">Contact us</h1>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 ">
+                <div class="d-none d-md-block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.193857145728!2d78.38449187493623!3d17.45043318344753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb916177d04a35%3A0x253dd03cf28dac05!2sBRN%20Infotech!5e0!3m2!1sen!2sin!4v1734512969285!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h4 class="mt-5 mb-3">Contact details</h4>
+                <p class="mb-4">3rd Floor, Amma Nilayam Jai Hind Gandhi Road beside Axis Bank & Bloom Hitech, Madhapur, Hyderabad, Telangana 500081</p>
+                <p class="mb-4">Contact:7658989242,9988776655</p>
+                <p class="mb-4">Email:Bhavani@gmail.com</p>
+                <a class="ms-5 me-3" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="me-3" href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a class="me-3" href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-secondary">
+        <p class="text-center text-white">Designed by Bhavani</p>
+    </div>
+</footer>
+</section>
+</body>
+</html>
